@@ -9,6 +9,12 @@ const TaskForm = () => {
         placeholder="Add task..."
         required
       />
+      <div className="buttons">
+        <button type="submit" className="btn add-task-btn">
+          Add Task
+        </button>
+        <button className="btn clear-btn">Clear</button>
+      </div>
     </form>
   );
 };
